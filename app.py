@@ -27,7 +27,7 @@ st.title("🏦 Loan Approval Analysis Dashboard")
 st.write("Explore loan applications, customer profiles and approval patterns.")
 
 # Load the dataset stored in this repository
-file_path = Path("Loan_approval_data_2025.xlsx")
+file_path = Path("Loan_approval_data_2025.csv.xlsx")
 
 if not file_path.exists():
     st.error(
